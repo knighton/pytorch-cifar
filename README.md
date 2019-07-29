@@ -7,7 +7,7 @@ Fixes CIFAR-100 with coarse labels (ie, "CIFAR-20").
 ```py
 from torchcifar import CIFAR20
 from torch.utils.data import DataLoader
-import torchvision.transforms as tf
+from torchvision import transforms as tf
 
 
 transform_train = tf.Compose([
